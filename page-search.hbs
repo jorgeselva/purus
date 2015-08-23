@@ -1,0 +1,44 @@
+{{!< default}}
+
+<header id="header" class="default">
+    <button class="toggle-menu menu-left push-body">
+    <i class="fa fa-bars"></i>
+
+        {{#if @blog.logo}}
+            <a class="logo_purus" href="{{@blog.url}}">
+                <img src="{{@blog.logo}}" alt="{{@blog.title}}" />
+            </a>
+        {{/if}}
+
+    </button> 
+</header>
+
+{{> menu}}
+
+{{! Search engine }}
+<script type="text/javascript" src="{{asset "js/jquery.ghostHunter.js"}}"></script>
+            
+<main role="main">
+    <div class="wrapper_purus">
+        <section class="banner_purus">
+            <h1>Search</h1>
+        </section>
+
+        <section id="nav">
+            {{navigation}}
+        </section>
+
+        <form>
+            <input type="text" id="search-field" placeholder="search..." style="background-image: url({{asset "img/search.png"}})" /> 
+        </form>
+        <section id="results"></section>
+
+        <script>
+        $("#search-field").ghostHunter({
+          results   : "#results",
+          onKeyUp   : true,
+          zeroResultsInfo     : false
+        });
+        </script> 
+    </div>
+</main>            
