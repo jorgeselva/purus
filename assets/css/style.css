@@ -1061,7 +1061,7 @@ margin on the iframe, cause it breaks stuff. */
    ========================================================================== */
 
 .main-footer_purus {
-    height: 300px;
+    height: 250px;
     background-color: #303030;
     background-attachment: fixed;
     background-repeat: no-repeat;
