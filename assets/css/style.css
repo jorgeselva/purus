@@ -315,7 +315,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .wrapper_purus {
     width: 100%;
-    max-width: 700px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
