@@ -1089,7 +1089,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .wrapper-footer_purus {
     position: absolute;
-    height: 300px;
+    height: 250px;
     width: 100%;
 }
 
@@ -1097,7 +1097,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     margin: 0 auto;
     text-align: center;
-    height: 300px;
+    height: 250px;
 }
 
 /* Footer Headlines */
