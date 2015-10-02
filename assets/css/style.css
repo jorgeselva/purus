@@ -1067,7 +1067,6 @@ margin on the iframe, cause it breaks stuff. */
     background-repeat: no-repeat;
     position: relative;
     text-align: center;
-    margin-top: 12rem;
     background-position: center;
     background-size: cover;
 }
@@ -1102,7 +1101,6 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Footer Headlines */
 .main-footer_purus h6 {
-    padding: 4rem 0 3rem 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 5.8rem;
